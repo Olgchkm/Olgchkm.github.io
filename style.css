@@ -976,6 +976,10 @@ input{
     }
 }
 @media (max-width:554px){
+    .ourpost,.prtteat{
+        flex-wrap: wrap;
+        width: 50%;
+    }
     .p1{
         font-size: 17px;
     }
@@ -1099,6 +1103,15 @@ input{
 }
 
 @media (max-width:388px){
+    .p5,.p6{
+        line-height: 50px;
+    }
+    .ourpost .p6{
+        margin-left: 0%;
+    }
+    .prtteat .p6{
+        margin-left: 0%;
+    }
     .p3{
         font-size: 30px;
     }
